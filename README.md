@@ -546,8 +546,8 @@ This analysis enables businesses to:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/keshavkapill/week-4-sql-powerbi-funnel-analysis.git
-cd week-4-sql-powerbi-funnel-analysis
+git clone https://github.com/keshavkapill/POWER-BI-FUNNEL-ANALYTICS.git
+cd POWER-BI-FUNNEL-ANALYTICS
 
 # 2. Open the SQLite database
 # Install DB Browser for SQLite from: https://sqlitebrowser.org/
@@ -601,7 +601,7 @@ Interact with Dashboard
 
 <br/>
 
-**Keshav Kapil** is a **Data Analyst and Business Intelligence Enthusiast** focused on data-driven solutions, analytics and modern software products.
+**Keshav Kapil** is a **Computer Science and Tech Enthusiast** focused on data-driven solutions,web development, analytics and modern software products.
 
 <br/>
 
