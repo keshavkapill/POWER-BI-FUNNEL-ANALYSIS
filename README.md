@@ -1,528 +1,1011 @@
-# 📊 SQL + Power BI Funnel & Revenue Analysis
+<div align="center">
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18&height=220&section=header&text=Funnel%20%26%20Revenue%20Analysis&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D47A1,50:2196F3,100:0D47A1&height=260&section=header&text=Funnel%20and%20Revenue%20Analytics&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=SQL%20%7C%20Power%20BI%20%7C%20Funnel%20and%20Revenue%20Analytics&descAlignY=60&descSize=18&animation=fadeIn"/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/SQL-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-  <img src="https://img.shields.io/badge/DAX-Analytics-512BD4?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Analytics-Funnel%20Analysis-6A5ACD?style=for-the-badge"/>
-</p>
+<br/>
 
-<p align="center">
-  <b>Turning raw user-event data into actionable funnel, revenue, and customer insights.</b>
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=900&lines=Client+Site+Funnel+Analysis+using+SQL+%26+Power+BI;SQL+Queries+%7C+Revenue+Analysis+%7C+Drop-off+Insights;User+Journey+%3A+Browse+%E2%86%92+Cart+%E2%86%92+Checkout+%E2%86%92+Purchase;Interactive+Power+BI+Dashboard+%7C+KPI+Cards;Business+Intelligence+%7C+Data+Analyst+Portfolio" />
 
----
+<br/>
 
-## 🚀 Project Overview
 
-This project analyzes an e-commerce customer journey using **SQL and Power BI**.
 
-The analysis focuses on understanding how users move through the funnel:
 
-```text
-Browse → Add to Cart → Checkout → Purchase
-```
 
-The project combines:
 
-* 🗄️ **SQLite** for data storage and SQL analysis
-* 🔎 **SQL** for extracting and transforming data
-* 📊 **Power BI** for interactive visualization
-* 🧮 **DAX** for calculated metrics
-* 📈 **Business Analytics** for identifying trends and opportunities
 
-The goal is to understand **user behavior, conversion performance, revenue generation, traffic sources, and customer drop-offs**.
 
----
 
-## 🎯 Business Objectives
 
-The analysis aims to answer questions such as:
 
-* How many users are entering the funnel?
-* How many users reach each funnel stage?
-* Where is the largest drop-off occurring?
-* What percentage of users complete a purchase?
-* Which traffic sources generate the most revenue?
-* Which devices generate better revenue performance?
-* What events contribute most to the customer journey?
-* How can conversion rates be improved?
 
----
 
-## 🧰 Tech Stack
+</div>
 
-| Technology                | Purpose                   |
-| ------------------------- | ------------------------- |
-| 🗄️ SQLite                | Database management       |
-| 💻 SQL                    | Data querying & analysis  |
-| 📊 Power BI               | Dashboard & visualization |
-| 🧮 DAX                    | Calculated metrics        |
-| 🐍 Python                 | Supporting data analysis  |
-| 📁 CSV                    | Source dataset            |
-| 🖥️ DB Browser for SQLite | Database exploration      |
+<br/>
 
----
+📌 Project Overview
 
-## 📂 Project Structure
+This repository is a complete, end-to-end data analysis workflow built around real-world client website behaviour data.
 
-```text
-Funnel-Revenue-Analysis/
+The project demonstrates a full business intelligence pipeline: importing raw CSV data into a relational SQLite database, writing structured SQL queries to extract funnel metrics, revenue performance and user behaviour patterns, and finally presenting executive-level insights through an interactive Power BI dashboard.
+
+🧩 Project: Client Site Funnel & Revenue Analysis
+
+🛠️ Tools: SQLite · DB Browser for SQLite · SQL · Power BI Desktop · DAX
+
+📂 Dataset: Client Site Dataset (21,409 events · 10 columns)
+
+🌟 Repository Highlights
+
+✔ SQL Queries
+
+✔ SQLite Database
+
+✔ Interactive Dashboard
+
+✔ Business Insights
+
+✔ Documentation
+
+✔ Screenshots
+
+✔ Professional Structure
+
+Detail
+
+Description
+
+🏢 Company
+
+Logic Stack
+
+👨‍💻 Role
+
+Data Analyst Intern
+
+🧩 Task
+
+Week 4 — Final Project (Task 04)
+
+💻 Project Type
+
+SQL Analytics + Power BI Business Dashboard
+
+🛠️ Tools
+
+SQLite, DB Browser for SQLite, SQL, Power BI, DAX, VS Code
+
+📦 Deliverables
+
+SQL Queries · SQLite Database · Power BI Dashboard · Business Insights
+
+🔗 Previous Weeks
+
+Week 1 — Excel · Week 2 — Excel + Power BI · Week 3 — Python + Power BI
+
+🎯 Project Objectives
+
+✔ Funnel Analysis — Track user journey from Browse → Add to Cart → Checkout → Purchase and identify drop-off points
+
+✔ SQL Analytics — Write structured queries for exploration, aggregation, revenue analysis and business insights
+
+✔ Revenue Analysis — Break down total revenue by region, channel, device and product category
+
+✔ Drop-off Analysis — Identify which funnel stage loses the most users and calculate conversion rates
+
+✔ Power BI Dashboard — Build an interactive, executive-level dashboard with KPI cards and 5 visuals
+
+✔ Business Insights — Generate 5 SQL insights + 5 dashboard insights + 3 actionable recommendations
+
+✔ BI Portfolio — Demonstrate complete junior Data Analyst capability from raw data to business decision
+
+🏢 Business Problem
+
+A digital company wants to understand user behaviour on its platform. As a Junior Data Analyst, the task is to answer:
+
+Business Question
+
+Analysis Method
+
+How do users move through the purchase funnel?
+
+Funnel Stage Analysis (SQL + Power BI Funnel Chart)
+
+Where do users drop off the most?
+
+Drop-off Rate Calculation per Event Stage
+
+Which marketing channels bring the most revenue?
+
+Revenue by Channel (GROUP BY + SUM)
+
+Which devices generate higher engagement?
+
+Device-level Conversion & Revenue Analysis
+
+Which regions generate more revenue?
+
+Regional Revenue Breakdown (SQL + Column Chart)
+
+Who are the top-spending users?
+
+Top 5 Users by Revenue Query
+
+🏗️ Project Architecture
+
+📥 Raw CSV File (client_site_dataset.csv)
+           │
+           ▼
+🗄️  SQLite Database (funnel_analysis.db)
+     via DB Browser for SQLite
+           │
+           ▼
+🔍 SQL Queries (funnel_analysis_queries.sql)
+     Exploration · Funnel · Revenue · Insights · Drop-off
+           │
+           ▼
+📊 Business Analysis
+     Funnel Stages · Conversion Rates · Revenue Breakdown
+           │
+           ▼
+📈 Power BI Dashboard
+     KPI Cards · Funnel Chart · Bar · Column · Pie · Line
+           │
+           ▼
+💡 Business Insights & Recommendations
+
+Project Workflow Diagram
+
+CSV Dataset
+
+↓
+
+SQLite Database
+
+↓
+
+SQL Queries
+
+↓
+
+Business Analysis
+
+↓
+
+Power BI Dashboard
+
+↓
+
+Insights
+
+↓
+
+Recommendations
+
+
+🛠️ Technologies Used
+
+<div align="center">
+
+Technology
+
+Badge
+
+Purpose
+
+SQLite
+
+
+
+Lightweight relational database for storing CSV data
+
+SQL
+
+
+
+Querying, aggregating and analysing dataset
+
+DB Browser for SQLite
+
+
+
+GUI for database creation, CSV import and query execution
+
+Power BI Desktop
+
+
+
+Interactive dashboard and KPI visualisation
+
+DAX
+
+
+
+Calculated columns and measures in Power BI
+
+VS Code
+
+
+
+Writing and organising SQL files
+
+GitHub
+
+
+
+Version control and portfolio showcase
+
+Markdown
+
+
+
+Documentation (README + SQL-Command.md)
+
+</div>
+
+🗂️ Dataset Information
+
+Field
+
+Detail
+
+Dataset Name
+
+Client Site Dataset
+
+File
+
+client_site_dataset.csv
+
+Total Rows
+
+21,409 events
+
+Total Columns
+
+10
+
+Database
+
+funnel_analysis.db (SQLite)
+
+Business Domain
+
+Digital Marketing / E-Commerce Funnel Analytics
+
+Date/Time
+
+Event Time column
+
+Unique Users
+
+10,000
+
+Unique Sessions
+
+10,000
+
+Total Revenue
+
+$277,323.06
+
+Dataset Columns:
+
+Column
+
+Type
+
+Description
+
+User ID
+
+Text
+
+Unique identifier per user
+
+Session ID
+
+VARCHAR
+
+Unique identifier per session
+
+Event Time
+
+Text
+
+Timestamp of the event
+
+Event
+
+Text
+
+Funnel stage (Browse / Add to Cart / Checkout / Purchase)
+
+Device
+
+Text
+
+Desktop / Tablet / Mobile
+
+Region
+
+Text
+
+North / South / East / West
+
+Channel
+
+Text
+
+Google Ads / Email / Organic / Social Media
+
+Product Category
+
+Text
+
+Category of product viewed or purchased
+
+Revenue
+
+Numeric
+
+Revenue generated (0 for non-purchase events)
+
+Bonus Flag
+
+Text
+
+Yes / No bonus indicator
+
+🗄️ Database Information
+
+The raw CSV was imported into a SQLite relational database using DB Browser for SQLite — a free, open-source GUI tool for SQLite database management.
+
+Why SQLite?
+
+Reason
+
+Detail
+
+✅ Zero Configuration
+
+No server setup required — single .db file
+
+✅ Lightweight
+
+Perfect for local data analysis projects
+
+✅ SQL Compatible
+
+Supports full standard SQL syntax
+
+✅ Portable
+
+.db file can be shared and committed to GitHub
+
+✅ Industry Standard
+
+Used in mobile apps, embedded systems, and analytics
+
+The database file funnel_analysis.db contains a single table (client_site_dataset) holding all 21,409 event records, with all columns preserved exactly as in the original CSV.
+
+🔍 SQL Tasks Performed
+
+All queries are saved in
+
+ sql/funnel_analysis_queries.sql
+
+Task 1 — Data Exploration
+
+Initial exploration queries to understand the dataset structure:
+
+Count of total rows to confirm data was imported correctly
+
+Count of unique users to understand audience size
+
+Count of unique sessions to measure platform reach
+
+Listing all distinct event types to confirm funnel stages
+
+Uses: `SELECT COUNT(*)`, `COUNT(DISTINCT ...)`, `SELECT DISTINCT`
+
+
+
+Task 2 — Funnel Stage Analysis
+
+The core funnel analysis tracking users through each stage:
+
+Count of total events broken down per event type
+
+Unique users at each funnel stage
+
+Conversion rate from Browse (top of funnel) through to Purchase (bottom of funnel)
+
+Uses: `GROUP BY`, `COUNT`, `ORDER BY`, percentage calculations
+
+Task 3 — Revenue Analysis
+
+Financial performance breakdown across multiple dimensions:
+
+Total revenue across all 21,409 events
+
+Revenue grouped by geographic region (North / South / East / West)
+
+Revenue broken down by marketing channel to identify best-performing acquisition source
+
+Revenue comparison across device types (Desktop / Tablet / Mobile)
+
+Uses: `SUM()`, `AVG()`, `GROUP BY`, `ORDER BY DESC`
+
+Task 4 — Business Insights Queries
+
+Targeted queries answering specific business questions:
+
+Top 5 highest-spending users ranked by total revenue contribution
+
+Best performing marketing channel by total and average revenue
+
+Highest revenue-generating region
+
+Product category generating the most purchase revenue
+
+Top products by total sales value
+
+Uses: `GROUP BY`, `SUM()`, `ORDER BY DESC`, `LIMIT`
+
+Task 5 — Drop-off Analysis
+
+Identifying where the funnel loses users:
+
+Calculating user count at each stage to pinpoint the largest drop
+
+Computing conversion rate at every transition (Browse→Cart, Cart→Checkout, Checkout→Purchase)
+
+Identifying the event type with the lowest forward conversion
+
+Uses: `COUNT(DISTINCT)`, `GROUP BY Event`, subqueries, calculated percentage columns
+
+📊 Power BI Dashboard
+
+The cleaned dataset was imported into Power BI Desktop and a complete Client Site Analytics Dashboard was built with KPI cards and five interactive visuals.
+
+Dashboard Title: Client Site Analytics Dashboard
+
+File:
+
+`powerbi/Client_Site_Analytics_Dashboard.pbix`
+
+🃏 Dashboard KPIs
+
+<div align="center">
+
+KPI Card
+
+Value
+
+Description
+
+👥 Total Users
+
+10,000
+
+Unique users tracked in the dataset
+
+💰 Total Revenue
+
+$277,323
+
+Total revenue from all Purchase events
+
+📊 Total Events
+
+21,409
+
+All funnel events recorded
+
+🛒 Total Purchases
+
+1,004
+
+Completed purchase transactions
+
+</div>
+
+📉 Dashboard Visuals
+
+#
+
+Visual Type
+
+Title
+
+Insight Delivered
+
+1
+
+🔽 Funnel Chart
+
+User Journey Funnel
+
+Shows drop-off at every stage: Browse→Cart→Checkout→Purchase
+
+2
+
+📊 Bar Chart
+
+Revenue by Channel
+
+Compares Google Ads, Email, Organic, Social Media performance
+
+3
+
+📈 Column Chart
+
+Revenue by Region
+
+North vs South vs East vs West revenue breakdown
+
+4
+
+🥧 Pie Chart
+
+Device Distribution
+
+Desktop vs Tablet vs Mobile share of total events
+
+5
+
+📉 Line Chart
+
+Revenue Trend
+
+Revenue movement over event time
+
+Insight Panel (in dashboard):
+
+🔴 Biggest drop-off: Checkout → Purchase (70.9% drop)
+
+🟢 Best channel: Google Ads (highest revenue contribution)
+
+🏆 Most valuable segment: Desktop users (highest revenue per event)
+
+📁 Repository Folder Structure
+
+week-4-sql-powerbi-funnel-analysis/
 │
-├── client_site_dataset.csv
+├── database/
+│   ├── funnel_analysis.db           ← SQLite database
+│   └── funnel_analysis.sqbpro       ← DB Browser project file
 │
-├── funnel_analysis.db
+├── dataset/
+│   └── client_site_dataset.csv      ← Raw dataset (21,409 rows)
 │
-├── funnel_analysis.sqbpro
+├── docs/
+│   └── Week 4 Task.pdf              ← Project task brief
 │
-├── sql/
-│   └── funnel_analysis_queries.sql
-│
-├── PowerBI/
-│   └── Funnel_Revenue_Analysis.pbix
+├── powerbi/
+│   ├── Client_Site_Analytics_Dashboard.pbix  ← Power BI file
+│   ├── powerbi-dashboard.jpeg       ← Dashboard screenshot
+│   ├── final-dashboard0.jpeg        ← Full dashboard view
+│   └── loading-csv-powerbi.png      ← CSV import screenshot
 │
 ├── screenshots/
-│   ├── dashboard.png
-│   ├── funnel.png
-│   └── revenue_analysis.png
+│   ├── sql-query-01-view-data.jpeg
+│   ├── sql-query-02-total-revenue.png
+│   ├── sql-query-03-average-revenue.jpeg
+│   ├── query-04-purchase-revenue-by-category.png
+│   ├── query-04-top-products.png
+│   ├── query-05-revenue-by-region.png
+│   ├── final-dashboard.png
+│   └── final-dashboard0.jpeg
 │
+├── sql/
+│   ├── funnel_analysis_queries.sql  ← All SQL queries
+│   └── SQL-Command.md               ← SQL commands reference
+│
+├── .gitignore
 └── README.md
-```
 
----
+🖥️ SQL Query Screenshots
 
-# 📊 Dataset
+Data Exploration & Revenue Queries
 
-The project uses an event-based customer interaction dataset:
+<div align="center">
 
-```text
-client_site_dataset.csv
-```
+Query 01 — View Data
 
-The dataset contains information related to:
+Query 02 — Total Revenue
 
-* Users
-* Sessions
-* Events
-* Devices
-* Traffic sources
-* Products
-* Revenue
-* Customer journey stages
 
-The database created from the dataset is:
 
-```text
-funnel_analysis.db
-```
 
----
 
-# 🗄️ Database
+Initial data exploration — SELECT * to verify import
 
-SQLite is used as the project's relational database.
+SUM(Revenue) — total platform revenue calculation
 
-The database can be opened using:
+</div>
 
-**DB Browser for SQLite**
+<div align="center">
 
-The project database file is:
+Query 03 — Average Revenue
 
-```text
-funnel_analysis.db
-```
+Query 04.1 — Revenue by Category
 
-The SQLite project file is:
 
-```text
-funnel_analysis.sqbpro
-```
 
----
 
-# 🔎 SQL Analysis
 
-SQL is used to extract meaningful insights from the raw event data.
+AVG(Revenue) — average transaction value analysis
 
-The main SQL queries are available inside:
+SUMIF by Product Category — category performance
 
-```text
-sql/funnel_analysis_queries.sql
-```
+</div>
 
-### SQL concepts used
+<div align="center">
 
-* `SELECT`
-* `WHERE`
-* `GROUP BY`
-* `ORDER BY`
-* `HAVING`
-* `JOIN`
-* `COUNT`
-* `SUM`
-* `AVG`
-* `CASE`
-* `DISTINCT`
-* Subqueries
-* Aggregations
-* Conditional calculations
+Query 05 — Top Products
 
----
+Query 05 — Revenue by Region
 
-# 🔄 Customer Funnel
 
-The customer journey is analyzed using four major stages:
 
-```text
-┌───────────────┐
-│    BROWSE     │
-└───────┬───────┘
-        ↓
-┌───────────────┐
-│  ADD TO CART  │
-└───────┬───────┘
-        ↓
-┌───────────────┐
-│   CHECKOUT    │
-└───────┬───────┘
-        ↓
-┌───────────────┐
-│   PURCHASE    │
-└───────────────┘
-```
 
-This allows the business to identify exactly where customers leave the purchasing journey.
 
----
+TOP 5 products ranked by total purchase revenue
 
-# 📈 Key Metrics
+Regional breakdown — North / South / East / West
 
-The analysis contains approximately:
+</div>
 
-| Metric             |       Value |
-| ------------------ | ----------: |
-| 👥 Unique Users    |      10,000 |
-| 🔄 Unique Sessions |      10,000 |
-| 🖱️ Total Events   |      21,409 |
-| 💰 Total Revenue   | $277,323.06 |
+📊 Power BI Dashboard Preview
 
----
+<div align="center">
 
-# 🚨 Funnel Drop-Off Analysis
+Main Dashboard View
 
-One of the major findings is the significant drop between:
 
-```text
-Checkout → Purchase
-```
 
-The approximate drop-off at this stage is:
+</div>
 
-### 🔻 ~70.9%
+<div align="center">
 
-This indicates that a large percentage of users who reach checkout do not complete their purchase.
+Full Dashboard View
 
-### Possible business considerations
 
-* Improve checkout experience
-* Reduce checkout friction
-* Simplify payment process
-* Investigate payment failures
-* Improve trust signals
-* Optimize page performance
-* Provide clearer pricing information
 
----
+</div>
 
-# 💰 Revenue Analysis
+<div align="center">
 
-Revenue was analyzed across multiple dimensions.
+Final Dashboard (Full Screen)
 
-### Traffic Source
+Loading CSV in Power BI
 
-The analysis indicates that:
 
-> **Google Ads contributes the highest revenue among the analyzed traffic sources.**
 
-This can help determine where marketing investment is generating the strongest financial return.
 
----
 
-# 💻 Device Analysis
+</div>
 
-Device-level analysis was performed to understand differences in customer behavior.
+💡 Key Business Insights
 
-The analysis indicates:
+From SQL Analysis:
 
-> **Desktop users generate the highest revenue per event.**
+🔽 Checkout → Purchase is the biggest drop-off — only 29.1% of users who reach Checkout complete the Purchase, making it the most critical leakage point in the funnel
 
-This can be useful when prioritizing optimization efforts across different device experiences.
+🛒 Browse to Add to Cart conversion is 69.5% — a relatively healthy top-funnel engagement, suggesting strong product discovery performance
 
----
+💰 Total platform revenue is $277,323 generated entirely from 1,004 Purchase events — meaning 90% of users generate zero revenue
 
-# 📊 Power BI Dashboard
+🌍 All four regions (North/South/East/West) show near-equal revenue distribution — suggesting no geographic bias in the marketing strategy
 
-Power BI is used to transform the SQL analysis into an interactive dashboard.
+📱 Google Ads is the top revenue-generating channel, followed closely by Email — organic and social channels underperform in direct revenue contribution
 
-The dashboard focuses on:
+From Power BI Dashboard:
 
-### 📌 Funnel Performance
+📊 The Funnel Chart visually confirms that the steepest drop occurs between Checkout and Purchase — a UX or trust issue at the payment stage is the likely cause
 
-* Users at each stage
-* Conversion rates
-* Drop-off rates
-* Funnel visualization
+💻 Desktop users generate higher revenue per session than Mobile and Tablet users — suggesting Desktop-first UX optimisation should be prioritised
 
-### 💰 Revenue Performance
+📅 Revenue trend over time shows consistent daily patterns with occasional peaks — promotional or seasonal events likely drive these spikes
 
-* Total revenue
-* Revenue by source
-* Revenue by device
-* Revenue trends
+🎯 Social Media has the lowest direct revenue contribution despite significant traffic — indicates a brand awareness role rather than direct conversion
 
-### 👥 User Behavior
+🏆 Top 5 users account for a disproportionate share of total revenue — a VIP customer retention programme could protect this high-value segment
 
-* User activity
-* Session activity
-* Event distribution
-* Customer journey
+📈 Business Impact
 
-### 📈 Business Insights
+This analysis enables businesses to:
 
-* Highest-performing channels
-* Highest-performing devices
-* Funnel bottlenecks
-* Revenue opportunities
+• Monitor customer conversion funnel
 
----
+• Identify revenue-driving categories
 
-# 🧮 DAX
+• Track regional performance
 
-DAX is used within Power BI to create calculated metrics and measures.
+• Improve marketing strategy
 
-Examples include:
+• Support data-driven decision making
 
-```text
-Total Revenue
-Total Users
-Total Sessions
-Conversion Rate
-Drop-off Rate
-Revenue per Event
-```
+📋 Business Recommendations
 
-DAX allows the dashboard to dynamically calculate and visualize business metrics.
+🔴 Recommendation 1 — Fix the Checkout → Purchase Drop-off
+With a 70.9% abandonment at the final step, the checkout process needs immediate UX review. Adding trust signals (security badges, reviews), simplifying the payment form, and offering guest checkout could meaningfully increase conversion rate.
 
----
+🟡 Recommendation 2 — Invest More in Google Ads and Email
+These two channels drive the highest direct revenue. Increasing budget allocation to Google Ads and improving email campaign segmentation would likely yield the highest return on marketing spend.
 
-# 🔄 Project Workflow
+🟢 Recommendation 3 — Launch a VIP Retention Programme
+The top 5 users contribute a significant portion of total revenue. A dedicated loyalty programme — early access, exclusive discounts, personalised outreach — would protect this high-value segment and incentivise others to increase spend.
 
-```text
-             RAW CSV DATA
-                  │
-                  ▼
-        ┌──────────────────┐
-        │  SQLite Database  │
-        └────────┬─────────┘
-                 │
-                 ▼
-          SQL DATA ANALYSIS
-                 │
-                 ▼
-       ┌────────────────────┐
-       │ Business Metrics   │
-       │ & Insights         │
-       └─────────┬──────────┘
-                 │
-                 ▼
-            POWER BI
-                 │
-                 ▼
-       INTERACTIVE DASHBOARD
-                 │
-                 ▼
-         BUSINESS DECISIONS
-```
+⚠️ Challenges Faced
 
----
+Challenge
 
-# 🛠️ How to Use
+Details
 
-## 1️⃣ Clone the Repository
+Resolution
 
-```bash
-git clone https://github.com/keshavkapill/REPOSITORY-NAME.git
-```
+🔴 SQLite Installation
 
-```bash
-cd REPOSITORY-NAME
-```
+Downloading and configuring SQLite on Windows required understanding PATH environment settings
 
-Replace `REPOSITORY-NAME` with the actual name of your GitHub repository.
+Resolved by using DB Browser for SQLite — a GUI that bundles SQLite without manual PATH setup
 
----
+🟡 DB Browser Setup
 
-## 2️⃣ Open the Database
+Initial confusion between DB Browser project files (.sqbpro) and actual database files (.db)
 
-Open:
+Understood the distinction and kept both files in database/ folder
 
-```text
-funnel_analysis.db
-```
+🟡 CSV Import
 
-using **DB Browser for SQLite**.
+Column name encoding and data type mapping during CSV import into SQLite table
 
----
+Used DB Browser's import wizard with manual column type review
 
-## 3️⃣ Run SQL Queries
+🟠 SQL Syntax
 
-Open:
+Writing aggregate queries with GROUP BY, HAVING, and subqueries for funnel conversion rates
 
-```text
-sql/funnel_analysis_queries.sql
-```
+Resolved through systematic query building — simple to complex
 
-Execute the queries inside SQLite to reproduce the analysis.
+🟡 Power BI Connection
 
----
+Connecting Power BI to the SQLite .db file required an ODBC driver configuration
 
-## 4️⃣ Open Power BI
+Switched to importing the cleaned CSV directly into Power BI for a simpler workflow
 
-Open:
+🟢 Overall
 
-```text
-Funnel_Revenue_Analysis.pbix
-```
+Every challenge was successfully resolved through research and systematic problem solving
 
-using Microsoft Power BI Desktop.
+All deliverables completed within the 7-day deadline
 
----
+📚 Learning Outcomes
 
-# 🖼️ Dashboard Preview
+Skill
 
-> Keep your existing project screenshots/images here.
+What I Learned
 
-```text
-screenshots/
-├── dashboard.png
-├── funnel.png
-└── revenue_analysis.png
-```
+🗄️ SQLite
 
-If your original README already contains image links, **keep those exact image lines** instead of replacing them.
+Creating databases, importing CSV, managing tables
 
----
+🔍 SQL
 
-# 💡 Business Recommendations
+SELECT, WHERE, GROUP BY, ORDER BY, SUM, AVG, COUNT, LIMIT, DISTINCT
 
-Based on the analysis, the following improvements can be considered:
+📊 Funnel Analysis
 
-### 1. Optimize Checkout
+Calculating conversion rates and identifying drop-off stages
 
-The Checkout → Purchase stage shows the largest funnel drop-off.
+💰 Revenue Analysis
 
-### 2. Improve Payment Experience
+Breaking down revenue by dimension using SQL aggregates
 
-Investigate unsuccessful transactions and simplify payment flows.
+📈 Power BI
 
-### 3. Focus on High-Revenue Channels
+KPI cards, funnel charts, DAX measures, interactive dashboard design
 
-Google Ads demonstrates strong revenue contribution and can be analyzed further for campaign-level optimization.
+🎨 Dashboard Design
 
-### 4. Optimize Desktop Experience
+Professional layout, colour consistency, visual hierarchy
 
-Since desktop users show strong revenue per event, maintaining a smooth desktop experience can support revenue performance.
+💡 Business Thinking
 
-### 5. Monitor Funnel Conversion
+Translating data findings into actionable business recommendations
 
-Track conversion rates continuously to identify changes in customer behavior.
+🐙 GitHub
 
----
+Professional repo structure, documentation, portfolio presentation
 
-# 🧠 Challenges
+🚀 Future Improvements
 
-During the project, several analytical challenges were addressed:
+🔄 PostgreSQL Migration — Move to PostgreSQL for more advanced SQL capabilities (window functions, CTEs)
 
-* Understanding event-based customer data
-* Converting raw events into funnel stages
-* Calculating meaningful conversion metrics
-* Handling aggregations in SQL
-* Connecting SQL analysis with Power BI
-* Creating meaningful DAX measures
-* Identifying actionable business insights
-* Designing a dashboard that communicates findings clearly
+📅 Time-Series Analysis — Add proper datetime parsing to analyse funnel performance by hour, day, and week
 
----
+🤖 Predictive Model — Build a churn/drop-off prediction model using Python scikit-learn
 
-# 📚 Learning Outcomes
+🎛️ Power BI Slicers — Add interactive date, region, device and channel filters to the dashboard
 
-Through this project, I strengthened my understanding of:
+🧮 Advanced DAX — Implement YoY comparison measures, running totals and cohort analysis
 
-* SQL
-* SQLite
-* Data Cleaning
-* Data Transformation
-* Funnel Analysis
-* Revenue Analysis
-* Power BI
-* DAX
-* Data Visualization
-* Business Intelligence
-* Customer Journey Analytics
-* Data-driven Decision Making
+🌐 Power BI Service — Publish the dashboard to Power BI Service for cloud-based sharing
 
----
+📊 A/B Test Analysis — Use the Bonus Flag column to compare performance between test and control groups
 
-# 🚀 Future Improvements
+🗄️ Data Warehouse — Design a star schema with separate dimension tables (Users, Events, Channels, Regions)
 
-Potential improvements include:
+✨ Repository Features
 
-* Real-time dashboard integration
-* More advanced customer segmentation
-* Cohort analysis
-* Customer lifetime value analysis
-* Marketing campaign ROI analysis
-* Time-based funnel analysis
-* Automated reporting
-* Predictive conversion modeling
-* Advanced Power BI dashboards
+✅ Complete SQL analysis covering 5 task categories
 
----
+✅ Professional SQLite database with full CSV import
 
-# 👨‍💻 About Me
+✅ SQL commands documented in SQL-Command.md
 
-### Keshav Kapil
+✅ Interactive Power BI dashboard with 4 KPI cards and 5 visuals
 
-BTech CSE student interested in:
+✅ Funnel drop-off analysis with conversion rate calculations
 
-* 💻 Software Development
-* 📊 Data Analytics
-* ☁️ Cloud Computing
-* 🧠 Data Structures & Algorithms
-* 🌐 Full Stack Development
+✅ Revenue breakdown by Region, Channel, Device and Product Category
 
----
+✅ 10 business insights + 3 actionable recommendations
 
-# 🤝 Connect With Me
+✅ Organised folder structure with clean GitHub repository
+
+✅ All query outputs captured as screenshots
+
+⚙️ Installation & Usage
+
+# 1. Clone the repository
+git clone https://github.com/KeshavKapill/week-4-sql-powerbi-funnel-analysis.git
+cd week-4-sql-powerbi-funnel-analysis
+
+# 2. Open the SQLite database
+# Install DB Browser for SQLite from: https://sqlitebrowser.org/
+# Open: database/funnel_analysis.db
+
+# 3. Run SQL queries
+# Open: sql/funnel_analysis_queries.sql in DB Browser
+
+# 4. Open Power BI Dashboard
+# Install Power BI Desktop from: https://powerbi.microsoft.com/
+# Open: powerbi/Client_Site_Analytics_Dashboard.pbix
+
+Quick Start
+
+Clone Repository
+
+↓
+
+Open SQLite Database
+
+↓
+
+Run SQL Queries
+
+↓
+
+Open PBIX
+
+↓
+
+Interact with Dashboard
+
+Requirements:
+
+Software
+
+Version
+
+Download
+
+DB Browser for SQLite
+
+Latest
+
+sqlitebrowser.org
+
+Power BI Desktop
+
+Latest
+
+powerbi.microsoft.com
+
+VS Code (optional)
+
+Latest
+
+code.visualstudio.com
+
+Week
+
+Repository
+
+Tools
+
+Focus
+
+Week 1
+
+week-1-retail-sales-excel-analysis
+
+Excel
+
+Data Cleaning · Formulas · Charts
+
+Week 2
+
+week-2-excel-powerbi-sales-dashboard
+
+Excel + Power BI
+
+Pivot Tables · KPIs · Dashboard
+
+Week 3
+
+week-3-python-powerbi-supply-chain-analytics
+
+Python + Power BI
+
+EDA · Supply Chain Analytics
+
+Week 4
+
+week-4-sql-powerbi-funnel-analysis (current)
+
+SQL + Power BI
+
+Funnel Analysis · Revenue · BI Dashboard
+
+🙏 Acknowledgements
+
+📄 License
+
+<br/>
+
+👨‍💻 About the Author
+
+<br/>
+
+<br/>
+
+<br/>
+
+🌐 Connect With Me
+
+
+
+
+
+<br/>
+
+<br/>
+
+📊 Repository Statistics
+
+
+
+
+
+⭐ Support This Project
+
+If you found this project useful or inspiring, consider giving it a ⭐ Star on GitHub.
+Your support motivates me to continue building and sharing high-quality open-source projects.
+
+<br/>
+
+<br/>
 
 <p align="center">
 
-<a href="https://github.com/keshavkapill">
-<img src="https://img.shields.io/badge/GitHub-Keshav%20Kapil-181717?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="https://www.linkedin.com/in/keshavkapil15/">
-<img src="https://img.shields.io/badge/LinkedIn-Keshav%20Kapil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+Full Stack Web Developer • Data Analyst • AI & Automation Enthusiast • Open Source Contributor
 
 </p>
 
----
-
-<p align="center">
-  ⭐ If you found this project useful, consider giving it a star!
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:BBDEFB,25:64B5F6,50:2196F3,75:1976D2,100:0D47A1&height=180&section=footer&text=Thank%20You%20for%20Visiting&fontSize=35&fontColor=ffffff&animation=fadeIn"/>
