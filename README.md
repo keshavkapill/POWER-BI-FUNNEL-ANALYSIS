@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D47A1,50:2196F3,100:0D47A1&height=260&section=header&text=Funnel%20and%20Revenue%20Analytics&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=SQL%20%7C%20Power%20BI%20%7C%20Week%204%20Final%20Internship%20Project&descAlignY=60&descSize=18&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D47A1,50:2196F3,100:0D47A1&height=260&section=header&text=Funnel%20and%20Revenue%20Analytics&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=SQL%20%7C%20Power%20BI%20%7C%20Data%20Analysis&descAlignY=60&descSize=18&animation=fadeIn"/>
 
 <br/>
 
