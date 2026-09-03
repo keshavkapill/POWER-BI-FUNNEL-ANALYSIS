@@ -546,8 +546,8 @@ This analysis enables businesses to:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/keshavkapill/POWER-BI-FUNNEL-ANALYTICS.git
-cd POWER-BI-FUNNEL-ANALYTICS
+git clone https://github.com/keshavkapill/POWER-BI-FUNNEL-ANALYSIS.git
+cd POWER-BI-FUNNEL-ANALYSIS
 
 # 2. Open the SQLite database
 # Install DB Browser for SQLite from: https://sqlitebrowser.org/
