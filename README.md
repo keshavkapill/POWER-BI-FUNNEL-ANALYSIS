@@ -35,11 +35,22 @@ This repository is a complete, end-to-end data analysis workflow built around re
 
 The project demonstrates a full business intelligence pipeline: importing raw CSV data into a relational SQLite database, writing structured SQL queries to extract funnel metrics, revenue performance and user behaviour patterns, and finally presenting executive-level insights through an interactive Power BI dashboard.
 
+### 1. 🔴 Problem Statement
 
+A digital company needs to understand how users interact with its website throughout the complete purchasing journey — from **Browse → Add to Cart → Checkout → Purchase**. The primary challenge is to identify where users are dropping out of the funnel, understand which channels, regions, devices and product categories contribute most to revenue, and determine which areas of the customer journey require further attention. The analysis therefore focuses on converting raw website-event data into measurable funnel, conversion and revenue metrics that can support data-driven business decisions.
+
+### 2. 🔵 Approach
+
+The project follows a structured **data-to-insight approach**. First, the raw client-site CSV dataset is imported into a SQLite database using DB Browser for SQLite. SQL is then used for data exploration, funnel-stage analysis, conversion-rate calculations, revenue analysis, regional and channel comparisons, top-user analysis and drop-off identification. The analysed data is subsequently brought into Power BI, where KPI cards and interactive visualisations are used to present the major business metrics and patterns in an executive-friendly format. Finally, the SQL results and Power BI dashboard are interpreted to produce business insights and actionable recommendations.
+
+### 3. 🟢 Findings
+
+The analysis identifies several important patterns in the client website data. The most significant funnel leakage occurs between **Checkout and Purchase**, where only **29.1%** of users reaching Checkout complete a Purchase. The dataset records **$277,323** in total revenue from **1,004 purchase events**, while **Google Ads** contributes the highest direct revenue among the analysed channels. Desktop users generate higher revenue per session than Mobile and Tablet users, while revenue is distributed relatively evenly across the four regions. These findings are further represented through the Power BI dashboard to make the funnel performance, revenue distribution and user behaviour easier to interpret.
 
 > 🛠️ **Tools:** SQLite · DB Browser for SQLite · SQL · Power BI Desktop · DAX
 
 > 📂 **Dataset:** Client Site Dataset (21,409 events · 10 columns)
+
 
 ---
 
